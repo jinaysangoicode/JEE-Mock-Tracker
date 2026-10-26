@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Grid lines -->
+  <line x1="80" y1="360" x2="432" y2="360" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="6,6" />
+  <line x1="80" y1="280" x2="432" y2="280" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="6,6" />
+  <line x1="80" y1="200" x2="432" y2="200" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3" stroke-dasharray="6,6" />
+
+  <!-- Trajectory Trending Line Chart -->
+  <path d="M 96 350 C 160 330, 200 240, 256 260 C 310 280, 360 170, 416 150" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 96 350 C 160 330, 200 240, 256 260 C 310 280, 360 170, 416 150" fill="none" stroke="url(#lineGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Data point markers -->
+  <circle cx="96" cy="350" r="10" fill="#38BDF8" stroke="#FFFFFF" stroke-width="4" />
+  <circle cx="256" cy="260" r="10" fill="#FCD34D" stroke="#FFFFFF" stroke-width="4" />
+  <circle cx="416" cy="150" r="14" fill="#34D399" stroke="#FFFFFF" stroke-width="5" />
+
+  <!-- JEE Target Emblem at Top Left -->
+  <circle cx="140" cy="130" r="32" fill="#FFFFFF" fill-opacity="0.2" />
+  <polygon points="140,110 170,125 140,140 110,125" fill="#FFFFFF" />
+  <path d="M 125 133 L 125 150 C 125 158 155 158 155 150 L 155 133" fill="#FFFFFF" />
+  <circle cx="170" cy="132" r="3" fill="#FFFFFF" />
+
+  <!-- App Title Acronym -->
+  <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">JEE TRACKER</text>
+</svg>

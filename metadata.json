@@ -1,0 +1,6 @@
+{
+  "name": "JEE Mock Tracker - Mains & Advanced Progress Analytics",
+  "description": "Dynamic student progress tracker for JEE Mains and Advanced mock tests with subject-wise line graphs, automated report analysis, and data reordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
